@@ -24,3 +24,82 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+h4 {
+  font-size: 1.125rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: 0.875rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+ol {
+  list-style: decimal;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--foreground);
+  padding-left: 24px;
+}
+
+ul {
+  list-style: disc;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--foreground);
+  padding-left: 24px;
+}
+
+pre {
+  background: #1f2937;
+  padding: 1rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin: 1.5rem 0;
+  border: 1px solid #374151;
+}
+
+blockquote {
+  border-left: 3px solid #7c3aed;
+  margin: 1.5rem 0;
+  padding: 0 1rem;
+  color: #9ca3af;
+  font-style: italic;
+  background: rgba(124, 58, 237, 0.1);
+  border-radius: 0 4px 4px 0;
+}
+
+input {
+  cursor: pointer;
+}
+
+.task-list {
+  list-style: none;
+  padding-left: 0;
+}
